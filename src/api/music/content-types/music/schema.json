@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "musics",
+  "info": {
+    "singularName": "music",
+    "pluralName": "musics",
+    "displayName": "music",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "length": {
+      "type": "time"
+    },
+    "audio_url": {
+      "type": "string"
+    },
+    "suno_id": {
+      "type": "string"
+    },
+    "s3_url": {
+      "type": "string"
+    },
+    "lyric": {
+      "type": "text"
+    },
+    "gpt_description_prompt": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "string"
+    }
+  }
+}
