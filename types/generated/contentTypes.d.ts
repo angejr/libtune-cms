@@ -382,6 +382,7 @@ export interface ApiMusicMusic extends Schema.CollectionType {
     lyric: Attribute.Text;
     gpt_description_prompt: Attribute.String;
     tags: Attribute.String;
+    image_url: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
