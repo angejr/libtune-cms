@@ -15,9 +15,6 @@
     "title": {
       "type": "string"
     },
-    "length": {
-      "type": "time"
-    },
     "audio_url": {
       "type": "string"
     },
@@ -37,6 +34,9 @@
       "type": "string"
     },
     "image_url": {
+      "type": "string"
+    },
+    "length": {
       "type": "string"
     }
   }

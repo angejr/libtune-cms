@@ -375,7 +375,6 @@ export interface ApiMusicMusic extends Schema.CollectionType {
   };
   attributes: {
     title: Attribute.String;
-    length: Attribute.Time;
     audio_url: Attribute.String;
     suno_id: Attribute.String;
     s3_url: Attribute.String;
@@ -383,6 +382,7 @@ export interface ApiMusicMusic extends Schema.CollectionType {
     gpt_description_prompt: Attribute.String;
     tags: Attribute.String;
     image_url: Attribute.String;
+    length: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
